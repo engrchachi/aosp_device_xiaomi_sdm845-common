@@ -172,11 +172,11 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/permissions/privapp-permissions-hotword.xml:system/etc/permissions/privapp-permissions-hotword.xml
 
 # IFAA manager
-PRODUCT_PACKAGES += \
-    org.ifaa.android.manager
+#PRODUCT_PACKAGES += \
+#    org.ifaa.android.manager
 
-PRODUCT_BOOT_JARS += \
-    org.ifaa.android.manager
+#PRODUCT_BOOT_JARS += \
+#    org.ifaa.android.manager
 
 # IMS
 PRODUCT_PACKAGES += \
